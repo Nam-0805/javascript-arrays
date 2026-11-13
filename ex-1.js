@@ -1,6 +1,13 @@
 let colors = ["red", "green", "blue", "khaki", "orange"];
 
-let blueColor = [2];
-let fourthColor = [3];
-let fifthColor = [4];
-let tenthColor = [9];
+let blueColor;
+let fourthColor;
+let fifthColor;
+let tenthColor;
+
+blueColor = colors[2];
+fourthColor = colors[3];
+fifthColor = colors[4];
+tenthColor = colors[9];
+
+console.log(blueColor, fourthColor, fifthColor, tenthColor);
